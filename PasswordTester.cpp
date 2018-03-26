@@ -25,7 +25,7 @@ int main()
 
         //Prompt user for valid entry
         cout << "Welcome to password strength tester.\n  This program takes a password of up to \n    1000 characters and tests to see if it has:\n\n -At least 12 characters.\n -Contains one digit.\n -Contains one lowercase character.\n -Contains one uppercase character.\n -Contains at least one special character. (!@#$%^&*()-+)\n\n";
-        //Change the password char array to have each
+        //Change the password char array to have each character typed in by the user.
         cout << "Enter a password:", cin >> password;
 
 
